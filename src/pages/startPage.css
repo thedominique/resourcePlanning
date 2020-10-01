@@ -1,0 +1,357 @@
+.startTitle {
+
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 50dp;
+    color: #0e120b;
+    margin-bottom: 20px;
+
+
+}
+
+.container {
+    margin-bottom: 20dp;
+    margin-top: 2000dp;
+}
+
+.carousel {
+    position: relative;
+    z-index: 1;
+}
+
+.item1 {
+    position: relative;
+    z-index: 1;
+}
+
+.card {
+    width: '18rem';
+    float: right;
+   
+}
+
+*
+{
+    outline: none;
+}
+
+html, body
+{
+    height: 100%;
+    min-height: 100%;
+}
+
+body
+{   height: 100%;
+    min-height: 100%;
+    margin: 0;
+    background: rgb(218,227,224);
+    background: linear-gradient(152deg, rgba(218,227,224,1) 0%, rgba(40,62,40,1) 99%, rgba(46,57,41,1) 100%, rgba(50,57,49,1) 100%);
+}
+
+.tb
+{
+    display: table;
+    width: 100%;
+}
+
+.td
+{
+    display: table-cell;
+    vertical-align: middle;
+}
+
+input, button
+{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: transparent;
+}
+
+#cover
+{   
+    position: absolute;
+    top: 20%;
+    left: 0;
+    right: 0;
+    width: 550dp;
+    padding: 35px;
+    margin: -83px auto 0 auto;
+    background-color: #9c9c9c;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px #d3d4d4, 0 0 0 20px #ffffffeb;
+    transform: scale(0.6);
+    z-index: 2;
+    opacity: .70;
+    transition: 0.5s ease all;
+}
+
+#cover:focus-within{
+    opacity: 1;
+    transition: 0.5s ease all;
+}
+
+#cover:hover{
+    transition: 0.5s ease all;
+    opacity: 1;
+}
+
+form
+{
+    height: 30px;
+}
+
+input[type="text"]
+{
+    width: 100%;
+    height: 40px;
+    font-size: 50px;
+    line-height: 1;
+}
+
+
+
+input[type="text"]::placeholder
+{
+    color: #cbcfc9;
+}
+
+#s-cover
+{
+    width: 1px;
+    padding-left: 35px;
+}
+
+button
+{
+    position: relative;
+    display: block;
+    width: 64px;
+    height: 76px;
+    cursor: pointer;
+}
+
+#s-circle
+{
+    position: relative;
+    top: -8px;
+    left: 0;
+    width: 74px;
+    height: 74px;
+    margin-top: 0;
+    border-width: 15px;
+    border: 15px solid #fff;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: 0.5s ease all;
+}
+
+button span
+{
+    position: absolute;
+    top: 68px;
+    left: 43px;
+    display: block;
+    width: 45px;
+    height: 15px;
+    background-color: transparent;
+    border-radius: 10px;
+    transform: rotateZ(52deg);
+    transition: 0.5s ease all;
+}
+
+button span:before, button span:after
+{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 45px;
+    height: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+    transform: rotateZ(0);
+    transition: 0.5s ease all;
+}
+
+#s-cover:hover #s-circle
+{
+    top: -1px;
+    width: 67px;
+    height: 15px;
+    border-width: 0;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+#s-cover:hover span
+{
+    top: 50%;
+    left: 56px;
+    width: 25px;
+    margin-top: -9px;
+    transform: rotateZ(0);
+}
+
+#s-cover:hover button span:before
+{
+    bottom: 11px;
+    transform: rotateZ(52deg);
+}
+
+#s-cover:hover button span:after
+{
+    bottom: -11px;
+    transform: rotateZ(-52deg);
+}
+#s-cover:hover button span:before, #s-cover:hover button span:after
+{
+    right: -6px;
+    width: 40px;
+    background-color: #fff;
+}
+
+
+
+/* #0e120b
+#293621
+#4b613c
+#7d9c79
+#95bdb0
+#dae3e0 */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+.card-cuntainer{
+    top: 30%;
+     left: 20%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    
+}
+ .product {
+     position: relative;
+     top: 30%;
+     left: 20%;
+     transform: translate(-50%, -50%);
+     width: 300px;
+     height: 400px;
+     box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
+     border-radius: 5px;
+     background: #0e0e0f;
+     overflow: hidden;
+     display: flex;
+    flex-direction: row;
+     flex: 1
+     
+ }
+
+ .product .imgbox {
+     height: 100%;
+     box-sizing: border-box
+ }
+
+ .product .imgbox img {
+     display: block;
+     width: 80%;
+     margin: 10px auto 0
+ }
+
+ .specifies {
+     position: absolute;
+     width: 100%;
+     bottom: -160px;
+     background: #fff;
+     padding: 10px;
+     box-sizing: border-box;
+     transition: .5s
+ }
+
+ .product:hover .specifies {
+     bottom: 0
+ }
+
+ .specifies h2 {
+     margin: 0;
+     padding: 0;
+     font-size: 20px;
+     width: 100%
+ }
+
+ .specifies h2 span {
+     font-size: 15px;
+     color: #ccc;
+     font-weight: normal
+ }
+
+ .specifies .price {
+     position: absolute;
+     top: 12px;
+     right: 25px;
+     font-weight: bold;
+     color: #000;
+     font-size: 10px
+ }
+
+ label {
+     display: block;
+     margin-top: 5px;
+     font-weight: bold;
+     font-size: 15px
+ }
+
+ ul {
+     display: flex;
+     margin: 0;
+     padding: 0
+ }
+
+ ul li {
+     list-style: none;
+     margin: 5px 5px 0;
+     font-size: 15px;
+     font-style: normal;
+     color: #ccc
+ }
+
+ ul li:first-child {
+     margin-left: 0
+ }
+
+ ul.colors li {
+     width: 15px;
+     height: 15px
+ }
+
+ ul.colors li:nth-child(1) {
+     background: #4A148C
+ }
+
+ ul.colors li:nth-child(2) {
+     background: #F50057
+ }
+
+ ul.colors li:nth-child(3) {
+     background: #536DFE
+ }
+
+ ul.colors li:nth-child(4) {
+     background: #388E3C
+ }
+
+ ul.colors li:nth-child(5) {
+     background: #FF6D00
+ }
+
+ .btn {
+     display: block;
+     padding: 5px;
+     color: #fff;
+     margin: 10px 0 0;
+     width: 100%;
+     font-size: 13px;
+     border-radius: 2px
+ }
