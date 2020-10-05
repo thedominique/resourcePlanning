@@ -35,9 +35,9 @@ class StartPage extends Component {
         return (
             <>
 
-                <div class="search__container">
+                {/* <div class="search__container">
                     <input class="search__input" type="text" placeholder="Search" />
-                </div>
+                </div> */}
 
 
                 <Carousel id="carousel">
