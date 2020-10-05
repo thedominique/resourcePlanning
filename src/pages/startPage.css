@@ -18,18 +18,8 @@
     z-index: 1;
 }
 
-.item1 {
-    position: relative;
-    z-index: 1;
-}
 
-.card {
-    width: '18rem';
-    float: right;
-   
-}
 
-*
 {
     outline: none;
 }
@@ -41,11 +31,11 @@ html, body
 }
 
 body
-{   height: 100%;
-    min-height: 100%;
+{   height: auto;
+    min-height: auto;
     margin: 0;
     background: rgb(218,227,224);
-    background: linear-gradient(152deg, rgba(218,227,224,1) 0%, rgba(40,62,40,1) 99%, rgba(46,57,41,1) 100%, rgba(50,57,49,1) 100%);
+    background: linear-gradient(90deg, rgba(218,227,224,1) 0%, rgba(40,62,40,1) 99%, rgba(46,57,41,1) 100%, rgba(50,57,49,1) 100%);
 }
 
 .tb
@@ -211,7 +201,7 @@ button span:before, button span:after
     right: -6px;
     width: 40px;
     background-color: #fff;
-}
+} 
 
 
 
@@ -222,31 +212,27 @@ button span:before, button span:after
 #95bdb0
 #dae3e0 */
 
+
+
+
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
 
-.card-cuntainer{
-    top: 30%;
-     left: 20%;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-    
-}
+
  .product {
      position: relative;
      top: 30%;
-     left: 20%;
+     left: 17.3%;
      transform: translate(-50%, -50%);
-     width: 300px;
+     width: 400px;
      height: 400px;
      box-shadow: 0 20px 40px rgba(0, 0, 0, .2);
      border-radius: 5px;
      background: #0e0e0f;
      overflow: hidden;
-     display: flex;
-    flex-direction: row;
-     flex: 1
-     
+     float: left;
+     margin-right: 5%;
+     margin-bottom: 15%;
  }
 
  .product .imgbox {
@@ -256,7 +242,7 @@ button span:before, button span:after
 
  .product .imgbox img {
      display: block;
-     width: 80%;
+     width: 100%;
      margin: 10px auto 0
  }
 

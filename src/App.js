@@ -9,7 +9,7 @@ class App extends Component{
   render() {
     return (
       <div className="App" style={{
-        backgroundColor: '#dae3e0',
+        // backgroundColor: '#dae3e0',
         width: "100%",
         height: "800px"
       }}>

@@ -6,6 +6,7 @@ import HeaderComponent from '../components/static/HeaderComponent';
 import FooterComponent from '../components/static/FooterComponent';
 
 import StartPage from '../pages/StartPage'
+import ProductPage from '../pages/ProductPage';
 
 
 class ViewCtrl extends Component {
@@ -18,8 +19,9 @@ class ViewCtrl extends Component {
                     <Switch>
                         <Route path="/" exact component={StartPage} />
                         <Route path="/start" component={StartPage} />
+                        <Route path="/productPage" component={ProductPage} />
                     </Switch>
-                    <FooterComponent/>
+                    {/* <FooterComponent/> */}
                     </>
                 </Router>
         );
