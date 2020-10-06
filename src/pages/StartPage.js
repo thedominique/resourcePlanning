@@ -35,11 +35,6 @@ class StartPage extends Component {
         return (
             <>
 
-                {/* <div class="search__container">
-                    <input class="search__input" type="text" placeholder="Search" />
-                </div> */}
-
-
                 <Carousel id="carousel">
                     <Carousel.Item id="item1">
                         <img id="c-image"
