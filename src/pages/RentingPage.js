@@ -29,79 +29,11 @@ var sectionStyle = {
 };
 
 
-class StartPage extends Component {
+class RentingPage extends Component {
 
     render() {
         return (
             <>
-
-                {/* <div class="search__container">
-                    <input class="search__input" type="text" placeholder="Search" />
-                </div> */}
-
-
-                <Carousel id="carousel">
-                    <Carousel.Item id="item1">
-                        <img id="c-image"
-                            className="d-block w-100"
-                            src={Hike7}
-                            alt="First slide"
-
-                        />
-
-                        <div className = "blackoverlay"></div>
-
-                        <Carousel.Caption>
-                            <h1>Welcome to the Garage</h1>
-                            <p>Maximizing the the use of your gear and bringing you closer to nature</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img id="c-image"
-                            className="d-block w-100"
-                            src={Hike8}
-                            alt="First slide"
-
-                        />
-                        <div className = "blackoverlay"></div>
-                        <Carousel.Caption>
-                        <h3>Start your adventure today</h3>
-                            <p>With the Garage you get access to top quality outdoor sports gear in a sustainable way</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img id="c-image"
-                            className="d-block w-100"
-                            src={Hike9}
-                            alt="Second slide"
-
-                        />
-                            <div className = "blackoverlay"></div>
-                        <Carousel.Caption>
-                            <h3>Sustainability and comfort</h3>
-                            <p>Sharing is caring. By renting second hand you contribute to a more sustainable product life cycle</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    
-                    <Carousel.Item>
-                        <img id="c-image"
-                            className="d-block w-100"
-                            src={Hike10}
-                            alt="Third slide"
-
-                        />
-                        <div className = "blackoverlay"></div>
-                        <Carousel.Caption>
-                            <h3>What are you waiting for?</h3>
-                            <p>
-                                The world is at your feet. You just have to take the first step and we'll be there to hold your hand
-                    </p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
-
-                {/* <div classname = "card-cuntainer"> */}
-
                 <div class="product" onClick={() => this.props.history.push({
                     pathname: "/productPage",
                     state: { image: "hike6.jpg" }
@@ -261,4 +193,4 @@ class StartPage extends Component {
 
 }
 
-export default StartPage;
+export default RentingPage;
