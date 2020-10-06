@@ -34,7 +34,6 @@ class StartPage extends Component {
     render() {
         return (
             <>
-
                 <Carousel id="carousel">
                     <Carousel.Item id="item1">
                         <img id="c-image"
@@ -43,7 +42,6 @@ class StartPage extends Component {
                             alt="First slide"
 
                         />
-
                         <div className = "blackoverlay"></div>
 
                         <Carousel.Caption>
@@ -95,7 +93,6 @@ class StartPage extends Component {
                     </Carousel.Item>
                 </Carousel>
 
-                {/* <div classname = "card-cuntainer"> */}
 
                 <div class="product" onClick={() => this.props.history.push({
                     pathname: "/productPage",
@@ -106,7 +103,6 @@ class StartPage extends Component {
                     <div class="specifies">
                         <h2 class="product-title">Camping delux <br></br> <span>Camping</span></h2> <br></br>
                         <div class="price">from $200</div>
-                        {/* <div class="price">$1500</div> <label>Size</label> */}
                         <ul>
                             <li>3D</li>
                             <li>1W</li>
