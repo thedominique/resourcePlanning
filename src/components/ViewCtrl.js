@@ -21,7 +21,7 @@ class ViewCtrl extends Component {
                         <Route path="/start" component={StartPage} />
                         <Route path="/productPage" component={ProductPage} />
                     </Switch>
-                    {/* <FooterComponent/> */}
+                    <FooterComponent/>
                     </>
                 </Router>
         );
