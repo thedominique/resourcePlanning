@@ -42,12 +42,11 @@ class StartPage extends Component {
 
                 <Carousel id="carousel">
                     <Carousel.Item id="item1">
-                        <img
+                        <img id = "c-image"
                             className="d-block w-100"
                             src={Hike7}
                             alt="First slide"
-                            width={900}
-                            height={600}
+                           
                         />
                         <Carousel.Caption>
                             <h3>First slide label</h3>
@@ -55,12 +54,11 @@ class StartPage extends Component {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img
+                        <img id = "c-image"
                             className="d-block w-100"
                             src={Hike8}
                             alt="First slide"
-                            width={900}
-                            height={600}
+                           
                         />
                         <Carousel.Caption>
                             <h3>First slide label</h3>
@@ -68,12 +66,11 @@ class StartPage extends Component {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img
+                        <img id = "c-image"
                             className="d-block w-100"
                             src={Hike9}
                             alt="Second slide"
-                            width={900}
-                            height={600}
+                            
                         />
 
                         <Carousel.Caption>
@@ -83,12 +80,11 @@ class StartPage extends Component {
                     </Carousel.Item>
 
                     <Carousel.Item>
-                        <img
+                        <img id = "c-image"
                             className="d-block w-100"
                             src={Hike10}
                             alt="Third slide"
-                            width={900}
-                            height={600}
+                           
                         />
 
                         <Carousel.Caption>
@@ -99,12 +95,11 @@ class StartPage extends Component {
                         </Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
-                        <img
+                        <img id = "c-image"
                             className="d-block w-100"
                             src={Hike2}
                             alt="Second slide"
-                            width={900}
-                            height={600}
+                           
                         />
 
                         <Carousel.Caption>
@@ -114,12 +109,11 @@ class StartPage extends Component {
                     </Carousel.Item>
 
                     <Carousel.Item>
-                        <img
+                        <img id = "c-image"
                             className="d-block w-100"
                             src={Hike10}
                             alt="Third slide"
-                            width={900}
-                            height={600}
+                            
                         />
 
                         <Carousel.Caption>
@@ -140,7 +134,7 @@ class StartPage extends Component {
                 })}>
                     <div class="imgbox" > <img src={Hike6}></img> </div>
                     <div class="specifies">
-                        <h2>Camping delux <br></br> <span>Camping</span></h2> <br></br>
+                        <h2 class="product-title">Camping delux <br></br> <span>Camping</span></h2> <br></br>
                         {/* <div class="price">$1500</div> <label>Size</label> */}
                         <ul>
                             <li>10MM</li>
@@ -164,18 +158,18 @@ class StartPage extends Component {
                 })}>
                     <div class="imgbox"> <img src={Hike1}></img> </div>
                     <div class="specifies">
-                        <h2>Fishing starter kit <br></br> <span>Rolex</span></h2>
-                        <div class="price">$1500</div> <label>Size</label>
+                        <h2 class="product-title">Fishing starter kit <br></br> <span>Fishing</span></h2>
+                        <div class="price">from $150</div> 
                         <ul>
-                            <li>10MM</li>
-                            <li>20MM</li>
+                            <li>1 D</li>
+                            <li>3 D</li>
+                            <li>1 W</li>
 
-                        </ul> <label>Colors</label>
-                        <ul class="colors">
-                            <li></li>
-                            <li></li>
+                        </ul> 
+                        <p className="product-description"> <br></br>
+                            Carp Fishing Full Kit 3 tips Carbon Fiber Feeder Fishing Rod Carp Fishing Reel and Fishing Carrier Bag</p>
 
-                        </ul> <button class="btn btn-primary" >Buy Now</button>
+                        <button class="btn btn-primary" >Buy Now</button>
                     </div>
                 </div>
 
@@ -187,8 +181,8 @@ class StartPage extends Component {
                 })}>
                     <div class="imgbox"> <img src={Hike3}></img> </div>
                     <div class="specifies">
-                        <h2>Camping basics<br></br> <span>Rolex</span></h2>
-                        <div class="price">$1500</div> <label>Size</label>
+                        <h2 class="product-title">Camping basics<br></br> <span>Camping</span></h2>
+                        <div class="price">from $15</div> 
                         <ul>
                             <li>10MM</li>
                             <li>20MM</li>

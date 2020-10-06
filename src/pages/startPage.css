@@ -18,6 +18,25 @@
     z-index: 1;
 }
 
+@media (max-width: 1025px){
+    .carousel{
+        height: 200px;
+    }
+
+    .c-image{
+
+    }
+
+    .product{
+        
+    }
+
+}
+
+.c-image{
+    width: 900px;
+    height: 600px;
+}
 
 
 {
@@ -37,171 +56,6 @@ body
     background: rgb(218,227,224);
     background: linear-gradient(90deg, rgba(218,227,224,1) 0%, rgba(40,62,40,1) 99%, rgba(46,57,41,1) 100%, rgba(50,57,49,1) 100%);
 }
-
-.tb
-{
-    display: table;
-    width: 100%;
-}
-
-.td
-{
-    display: table-cell;
-    vertical-align: middle;
-}
-
-input, button
-{
-    color: #fff;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 0;
-    margin: 0;
-    border: 0;
-    background-color: transparent;
-}
-
-#cover
-{   
-    position: absolute;
-    top: 20%;
-    left: 0;
-    right: 0;
-    width: 550dp;
-    padding: 35px;
-    margin: -83px auto 0 auto;
-    background-color: #9c9c9c;
-    border-radius: 20px;
-    box-shadow: 0 10px 40px #d3d4d4, 0 0 0 20px #ffffffeb;
-    transform: scale(0.6);
-    z-index: 2;
-    opacity: .70;
-    transition: 0.5s ease all;
-}
-
-#cover:focus-within{
-    opacity: 1;
-    transition: 0.5s ease all;
-}
-
-#cover:hover{
-    transition: 0.5s ease all;
-    opacity: 1;
-}
-
-form
-{
-    height: 30px;
-}
-
-input[type="text"]
-{
-    width: 100%;
-    height: 40px;
-    font-size: 50px;
-    line-height: 1;
-}
-
-
-
-input[type="text"]::placeholder
-{
-    color: #cbcfc9;
-}
-
-#s-cover
-{
-    width: 1px;
-    padding-left: 35px;
-}
-
-button
-{
-    position: relative;
-    display: block;
-    width: 64px;
-    height: 76px;
-    cursor: pointer;
-}
-
-#s-circle
-{
-    position: relative;
-    top: -8px;
-    left: 0;
-    width: 74px;
-    height: 74px;
-    margin-top: 0;
-    border-width: 15px;
-    border: 15px solid #fff;
-    background-color: transparent;
-    border-radius: 50%;
-    transition: 0.5s ease all;
-}
-
-button span
-{
-    position: absolute;
-    top: 68px;
-    left: 43px;
-    display: block;
-    width: 45px;
-    height: 15px;
-    background-color: transparent;
-    border-radius: 10px;
-    transform: rotateZ(52deg);
-    transition: 0.5s ease all;
-}
-
-button span:before, button span:after
-{
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 45px;
-    height: 15px;
-    background-color: #fff;
-    border-radius: 10px;
-    transform: rotateZ(0);
-    transition: 0.5s ease all;
-}
-
-#s-cover:hover #s-circle
-{
-    top: -1px;
-    width: 67px;
-    height: 15px;
-    border-width: 0;
-    background-color: #fff;
-    border-radius: 20px;
-}
-
-#s-cover:hover span
-{
-    top: 50%;
-    left: 56px;
-    width: 25px;
-    margin-top: -9px;
-    transform: rotateZ(0);
-}
-
-#s-cover:hover button span:before
-{
-    bottom: 11px;
-    transform: rotateZ(52deg);
-}
-
-#s-cover:hover button span:after
-{
-    bottom: -11px;
-    transform: rotateZ(-52deg);
-}
-#s-cover:hover button span:before, #s-cover:hover button span:after
-{
-    right: -6px;
-    width: 40px;
-    background-color: #fff;
-} 
 
 
 
@@ -250,10 +104,18 @@ button span:before, button span:after
      position: absolute;
      width: 100%;
      bottom: -160px;
-     background: #fff;
+     background: #333333;
      padding: 10px;
      box-sizing: border-box;
      transition: .5s
+ }
+
+ .product-title{
+    color: #D3D3D3;
+ }
+
+ .product-description{
+     color: #A9A9A9;
  }
 
  .product:hover .specifies {
@@ -269,7 +131,7 @@ button span:before, button span:after
 
  .specifies h2 span {
      font-size: 15px;
-     color: #ccc;
+     color: #D3D3D3;
      font-weight: normal
  }
 
@@ -278,7 +140,7 @@ button span:before, button span:after
      top: 12px;
      right: 25px;
      font-weight: bold;
-     color: #000;
+     color: #D3D3D3;
      font-size: 10px
  }
 
@@ -300,7 +162,7 @@ button span:before, button span:after
      margin: 5px 5px 0;
      font-size: 15px;
      font-style: normal;
-     color: #ccc
+     color: #D3D3D3
  }
 
  ul li:first-child {
