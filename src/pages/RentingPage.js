@@ -2,14 +2,15 @@ import React, { Component } from 'react'
 import './startPage.css'
 
 import Tent from '../images/Tent.jpeg'
-import Hike1 from '../images/hike1.jpg'
-import Hike2 from '../images/hike2.jpg'
-import Hike3 from '../images/hike3.jpg'
-import Hike8 from '../images/hike8.jpeg'
-import Hike9 from '../images/hike9.jpeg'
-import Hike7 from '../images/hike7.jpeg'
-import Hike10 from '../images/hike10.jpeg'
-import Hike6 from '../images/hike6.jpg'
+import Hike1 from '../images/fish.jpeg'
+import Hike3 from '../images/ten.jpeg'
+import Hike6 from '../images/lux.jpeg'
+import Pals from '../images/hike.jpeg'
+import Kayak from '../images/kayak2.jpeg'
+import Skiis from '../images/skiis.jpg'
+import Boats from '../images/boats.jpeg'
+import Snowboard from '../images/snowboard.jpeg'
+import Climb from '../images/climb.jpeg'
 
 
 import Carousel from 'react-bootstrap/Carousel'
@@ -106,6 +107,99 @@ class RentingPage extends Component {
                         </p>
                         </ul>
                         <button class="btn btn-primary">Book Now</button>
+                    </div>
+                </div>
+
+                <div class="product" onClick={() => this.props.history.push({
+                    pathname: "/productPage",
+                    state: { image: "hike.jpeg" }})}>
+                    <div class="imgbox"> <img src={Pals}></img> </div>
+                    <div class="specifies">
+                        <h2 class="product-title">Morning hike<br></br> <span>Hosted by Eliza</span></h2>
+                        <ul>
+                            <li>Every sunday</li>
+                        </ul>
+                        <p className="product-description"> <br></br>
+                            Start your day and finish your week with us on a refreshing morning hike! 
+                            </p>
+                    </div>
+                </div>
+                
+                <div class="product" onClick={() => this.props.history.push({
+                    pathname: "/productPage",
+                    state: { image: "skiis.jpg" }})}>
+                    <div class="imgbox"> <img src={Skiis}></img> </div>
+                    <div class="specifies">
+                        <h2 class="product-title">Skiing trip<br></br> <span>Hosted by the Garage</span></h2>
+                        <ul>
+                            <li>15/12/20 </li>
+                        </ul>
+                        <p className="product-description"> <br></br>
+                            Love snow and a kick of adrenaline? Or maybe kicking it back at the foot of the hill is more your style. We've got you covered.
+                            </p>
+                    </div>
+                </div>
+
+                <div class="product" onClick={() => this.props.history.push({
+                    pathname: "/productPage",
+                    state: { image: "kayak1.jpeg" }})}>
+                    <div class="imgbox"> <img src={Kayak}></img> </div>
+                    <div class="specifies">
+                        <h2 class="product-title">Kayaking<br></br> <span>Hosted by Sal</span></h2>
+                       
+                        <ul>
+                            <li>Tomorrow</li>
+                        </ul>
+                        <p className="product-description"> <br></br>
+                            Explore the waters in a unique way and help us raise awarness about ocean pollution
+                            </p>
+                    </div>
+                </div>
+
+                    {/* row2 */}
+                <div class="product" onClick={() => this.props.history.push({
+                    pathname: "/productPage",
+                    state: { image: "boats.jpeg" }})}>
+                    <div class="imgbox"> <img src={Boats}></img> </div>
+                    <div class="specifies">
+                        <h2 class="product-title">Calming roing picnic<br></br> <span>Hosted by John</span></h2>
+                        <ul>
+                            <li>Wednesday</li>
+                        </ul>
+                        <p className="product-description"> <br></br>
+                            Start your day and finish your week with us on a refreshing morning hike! 
+                            </p>
+                    </div>
+                </div>
+                
+                <div class="product" onClick={() => this.props.history.push({
+                    pathname: "/productPage",
+                    state: { image: "climb.jpeg" }})}>
+                    <div class="imgbox"> <img src={Climb}></img> </div>
+                    <div class="specifies">
+                        <h2 class="product-title">Sunset climb<br></br> <span>Hosted by the Garage</span></h2>
+                        <ul>
+                            <li>Tonight </li>
+                        </ul>
+                        <p className="product-description"> <br></br>
+                            Love snow and a kick of adrenaline? Or maybe kicking it back at the foot of the hill is more your style. We've got you covered.
+                            </p>
+                    </div>
+                </div>
+
+                <div class="product" onClick={() => this.props.history.push({
+                    pathname: "/productPage",
+                    state: { image: "kayak1.jpeg" }})}>
+                    <div class="imgbox"> <img src={Snowboard}></img> </div>
+                    <div class="specifies">
+                        <h2 class="product-title">Learn how to snowboard<br></br> <span>Hosted by Ellen</span></h2>
+                       
+                        <ul>
+                            <li>13/01/21</li>
+                        </ul>
+                        <p className="product-description"> <br></br>
+                            Explore the waters in a unique way and help us raise awarness about ocean pollution
+                            </p>
                     </div>
                 </div>
 

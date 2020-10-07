@@ -2,14 +2,13 @@ import React, { Component } from 'react'
 import './startPage.css'
 
 import Tent from '../images/Tent.jpeg'
-import Hike1 from '../images/hike1.jpg'
-import Hike2 from '../images/hike2.jpg'
-import Hike3 from '../images/hike3.jpg'
+import Hike1 from '../images/fish.jpeg'
+import Hike3 from '../images/ten.jpeg'
 import Hike8 from '../images/hike8.jpeg'
 import Hike9 from '../images/hike9.jpeg'
 import Hike7 from '../images/hike7.jpeg'
 import Hike10 from '../images/hike10.jpeg'
-import Hike6 from '../images/hike6.jpg'
+import Hike6 from '../images/lux.jpeg'
 
 
 import Carousel from 'react-bootstrap/Carousel'
@@ -118,31 +117,6 @@ class StartPage extends Component {
                     </div>
                 </div>
 
-
-
-                <div class="product" onClick={() => this.props.history.push({
-                    pathname: "/productPage",
-                    state: { image: "hike1.jpg" }
-
-                })}>
-                    <div class="imgbox"> <img src={Hike1}></img> </div>
-                    <div class="specifies">
-                        <h2 class="product-title">Fishing starter kit <br></br> <span>Fishing</span></h2>
-                        <div class="price">from $150</div>
-                        <ul>
-                            <li>1 D</li>
-                            <li>3 D</li>
-                            <li>1 W</li>
-
-                        </ul>
-                        <p className="product-description"> <br></br>
-                            Carp Fishing Full Kit 3 tips Carbon Fiber Feeder Fishing Rod Carp Fishing Reel and Fishing Carrier Bag</p>
-
-                        <button class="btn btn-primary" >Book Now</button>
-                    </div>
-                </div>
-
-
                 <div class="product" onClick={() => this.props.history.push({
                     pathname: "/productPage",
                     state: { image: "hike3.jpg" }
@@ -167,6 +141,30 @@ class StartPage extends Component {
                         <button class="btn btn-primary">Book Now</button>
                     </div>
                 </div>
+
+
+                <div class="product" onClick={() => this.props.history.push({
+                    pathname: "/productPage",
+                    state: { image: "hike1.jpg" }
+
+                })}>
+                    <div class="imgbox"> <img src={Hike1}></img> </div>
+                    <div class="specifies">
+                        <h2 class="product-title">Fishing starter kit <br></br> <span>Fishing</span></h2>
+                        <div class="price">from $150</div>
+                        <ul>
+                            <li>1 D</li>
+                            <li>3 D</li>
+                            <li>1 W</li>
+
+                        </ul>
+                        <p className="product-description"> <br></br>
+                            Carp Fishing Full Kit 3 tips Carbon Fiber Feeder Fishing Rod Carp Fishing Reel and Fishing Carrier Bag</p>
+
+                        <button class="btn btn-primary" >Book Now</button>
+                    </div>
+                </div>
+
 
                 {/* </div> */}
 
