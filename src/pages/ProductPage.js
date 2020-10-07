@@ -34,11 +34,26 @@ class ProductPage extends Component {
                         <div class = "col-md-5">
                             <h5>price: $50</h5>
                             <br></br>
-                            <button class="button--secondary" onClick={() => this.props.history.push({
-                    pathname: "/book",
-                    state: { image: "hike3.jpg" }
+                            
+                        <a href="http://marcel-pirnay.be/" class="btn"
+                            onClick={() => this.props.history.push({
+                                pathname: "/book",
+                                state: { image: "hike3.jpg" }
+            
+                            })}
+                        >
+                                            <svg width="277" height="62">
+                                                <defs>
+                                                    <linearGradient id="grad1">
+                                                        <stop offset="0%" stop-color="#e9ffdd" />
+                                                        <stop offset="100%" stop-color="#b9c7b1" />
+                                                    </linearGradient>
+                                                </defs>
+                                                <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="270" height="50"></rect>
+                                            </svg>
 
-                })}>   Book   </button>
+                                            <span>Book </span>
+                                        </a>
                         </div>
                     </div>
 

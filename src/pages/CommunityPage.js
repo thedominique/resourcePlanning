@@ -2,7 +2,9 @@ import React, { Component } from 'react'
 import './community.css'
 
 import Com from '../images/community.jpg'
-import Pals from '../images/pals.jpg'
+import Pals from '../images/hike.jpeg'
+import Kayak from '../images/kayak2.jpeg'
+import Skiis from '../images/skiis.jpg'
 
 
 import { WithRouter } from 'react-router-dom'
@@ -22,7 +24,8 @@ class RentingPage extends Component {
                             <div class="col-md-5">
                                 <div class="content">
                                     <h2>What are you waiting for?</h2>
-                                    <p color = "white">
+                                    <br></br>
+                                    <p color="white">
                                         Now that we took care of your gear it’s time to explore!
                                         Find your next tour guide, travel buddy or hiking companion in The Garage community.
                         <br></br>
@@ -33,14 +36,14 @@ class RentingPage extends Component {
                             <div class="col-md-4">
                                 <link href='https://fonts.googleapis.com/css?family=Lato|Roboto:400,900' rel='stylesheet' type='text/css' />
                                 <div class="container">
-                                    
+
                                     <div class="col">
                                         <a href="http://marcel-pirnay.be/" class="btn">
                                             <svg width="277" height="62">
                                                 <defs>
                                                     <linearGradient id="grad1">
-                                                        <stop offset="0%" stop-color="#FF8282" />
-                                                        <stop offset="100%" stop-color="#E178ED" />
+                                                        <stop offset="0%" stop-color="#d0d4d0" />
+                                                        <stop offset="100%" stop-color="#5b7358" />
                                                     </linearGradient>
                                                 </defs>
                                                 <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="240" height="50"></rect>
@@ -65,24 +68,24 @@ class RentingPage extends Component {
                                     </a>
 
                                     <a href="http://marcel-pirnay.be/" class="btn">
-                                            <svg width="277" height="62">
-                                                <defs>
-                                                    <linearGradient id="grad1">
-                                                        <stop offset="0%" stop-color="#FF8282" />
-                                                        <stop offset="100%" stop-color="#E178ED" />
-                                                    </linearGradient>
-                                                </defs>
-                                                <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="270" height="50"></rect>
-                                            </svg>
+                                        <svg width="277" height="62">
+                                            <defs>
+                                                <linearGradient id="grad1">
+                                                    <stop offset="0%" stop-color="#FF8282" />
+                                                    <stop offset="100%" stop-color="#E178ED" />
+                                                </linearGradient>
+                                            </defs>
+                                            <rect x="5" y="5" rx="25" fill="none" stroke="url(#grad1)" width="270" height="50"></rect>
+                                        </svg>
 
-                                            <span>Kayaking</span>
-                                        </a>
+                                        <span>Kayaking</span>
+                                    </a>
 
                                 </div>
                             </div>
 
                             <div class="col">
-                                
+
                                 Tell us what you like
                                 <a href="http://marcel-pirnay.be/" class="btn">
                                     <svg width="277" height="62">
@@ -154,19 +157,56 @@ class RentingPage extends Component {
                     </div>
                 </div>
 
-                <link href='https://fonts.googleapis.com/css?family=Josefin+Sans|Abril+Fatface' rel='stylesheet' type='text/css' />
+                
+                {/* feed */}
+                <div class="product" onClick={() => this.props.history.push({
+                    pathname: "/productPage",
+                    state: { image: "hike.jpeg" }})}>
+                    <div class="imgbox"> <img src={Pals}></img> </div>
+                    <div class="specifies">
+                        <h2 class="product-title">Morning hike<br></br> <span>Hosted by Eliza</span></h2>
+                        <ul>
+                            <li>Every sunday</li>
+                        </ul>
+                        <p className="product-description"> <br></br>
+                            Start your day and finish your week with us on a refreshing morning hike! 
+                            </p>
+                    </div>
+                </div>
+                
+                <div class="product" onClick={() => this.props.history.push({
+                    pathname: "/productPage",
+                    state: { image: "skiis.jpg" }})}>
+                    <div class="imgbox"> <img src={Skiis}></img> </div>
+                    <div class="specifies">
+                        <h2 class="product-title">Skiing trip<br></br> <span>Hosted by the Garage</span></h2>
+                        <ul>
+                            <li>15/12/20 </li>
+                        </ul>
+                        <p className="product-description"> <br></br>
+                            Love snow and a kick of adrenaline? Or maybe kicking it back at the foot of the hill is more your style. We've got you covered.
+                            </p>
+                    </div>
+                </div>
 
-                <blockquote1>
-                    <p>
-                        We make great outdoor experiences accessible to everyone by building a community
-                        of mindful adventurers who lend and borrow their gear in order
-                        to create a more sustainable product life cycle for the love of our environment.
-            </p>
+                <div class="product" onClick={() => this.props.history.push({
+                    pathname: "/productPage",
+                    state: { image: "kayak1.jpeg" }})}>
+                    <div class="imgbox"> <img src={Kayak}></img> </div>
+                    <div class="specifies">
+                        <h2 class="product-title">Kayaking<br></br> <span>Hosted by Sal</span></h2>
+                       
+                        <ul>
+                            <li>Tomorrow</li>
+                        </ul>
+                        <p className="product-description"> <br></br>
+                            Explore the waters in a unique way and help us raise awarness about ocean pollution
+                            </p>
+                    </div>
+                </div>
 
-                    <cite1><a href="https://www.brucelawson.co.uk/2013/on-citing-quotations-again/">The Garage</a></cite1>
 
-                    <div1></div1>
-                </blockquote1>
+
             </>
 
         );
