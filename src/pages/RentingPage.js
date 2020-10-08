@@ -142,7 +142,7 @@ class RentingPage extends Component {
 
                 <div class="product" onClick={() => this.props.history.push({
                     pathname: "/productPage",
-                    state: { image: "kayak1.jpeg" }})}>
+                    state: { image: "kayak2.jpeg" }})}>
                     <div class="imgbox"> <img src={Kayak}></img> </div>
                     <div class="specifies">
                         <h2 class="product-title">Kayaking<br></br> <span>Hosted by Sal</span></h2>
@@ -189,7 +189,7 @@ class RentingPage extends Component {
 
                 <div class="product" onClick={() => this.props.history.push({
                     pathname: "/productPage",
-                    state: { image: "kayak1.jpeg" }})}>
+                    state: { image: "snowboard.jpeg" }})}>
                     <div class="imgbox"> <img src={Snowboard}></img> </div>
                     <div class="specifies">
                         <h2 class="product-title">Learn how to snowboard<br></br> <span>Hosted by Ellen</span></h2>
