@@ -41,7 +41,7 @@ class RentingPage extends Component {
                                 <div class="container">
 
                                     <div class="col">
-                                        <a href="https://open.spotify.com/track/1QJb6LWvPXZpTMiqqODqkH?si=qvTHl6mWSdy2iZMdIyv7bw" class="btn">
+                                        <a href="https://open.spotify.com/track/2erjsKpMN5PnsyE7nZkUOr?si=wAC3xVFOR2apFfPzUWgl-g" class="btn">
                                             <svg width="277" height="62">
                                                 <defs>
                                                     <linearGradient id="grad1">
@@ -70,7 +70,7 @@ class RentingPage extends Component {
                                         <span>skiing</span>
                                     </a>
 
-                                    <a href="https://open.spotify.com/track/1QJb6LWvPXZpTMiqqODqkH?si=CEGERalpSN6BVvPRpyAs5g" class="btn">
+                                    <a href="https://open.spotify.com/track/4DuGrfVFyg9q0oBkcjjGo8?si=kRlcIZbsQ6-iPYIIFSxccQ" class="btn">
                                         <svg width="277" height="62">
                                             <defs>
                                                 <linearGradient id="grad1">
@@ -104,7 +104,7 @@ class RentingPage extends Component {
                                     <span>hiking</span>
                                 </a>
 
-                                <a href="https://open.spotify.com/track/1QJb6LWvPXZpTMiqqODqkH?si=CEGERalpSN6BVvPRpyAs5g" class="btn">
+                                <a href="https://open.spotify.com/track/4emUwxAX1zS7jpAe0KekuR?si=MK7jpJirQi-PPvRWtqaY7Q" class="btn">
                                     <svg width="277" height="62">
                                         <defs>
                                             <linearGradient id="grad1">
@@ -118,7 +118,7 @@ class RentingPage extends Component {
                                     <span>camping</span>
                                 </a>
 
-                                <a href="https://open.spotify.com/track/1QJb6LWvPXZpTMiqqODqkH?si=CEGERalpSN6BVvPRpyAs5g" class="btn">
+                                <a href="https://open.spotify.com/artist/5dHWGiB23nWjI8tC8wRGfH?si=J5fbQ_T7RtmJuKTw_bVutA" class="btn">
                                     <svg width="277" height="62">
                                         <defs>
                                             <linearGradient id="grad1">
