@@ -41,7 +41,7 @@ class RentingPage extends Component {
                                 <div class="container">
 
                                     <div class="col">
-                                        <a href="http://marcel-pirnay.be/" class="btn">
+                                        <a href="https://open.spotify.com/track/1QJb6LWvPXZpTMiqqODqkH?si=qvTHl6mWSdy2iZMdIyv7bw" class="btn">
                                             <svg width="277" height="62">
                                                 <defs>
                                                     <linearGradient id="grad1">
@@ -56,7 +56,7 @@ class RentingPage extends Component {
                                         </a>
                                     </div>
 
-                                    <a href="http://marcel-pirnay.be/" class="btn">
+                                    <a href="https://open.spotify.com/track/1QJb6LWvPXZpTMiqqODqkH?si=CEGERalpSN6BVvPRpyAs5g" class="btn">
                                         <svg width="277" height="62">
                                             <defs>
                                                 <linearGradient id="grad1">
@@ -70,7 +70,7 @@ class RentingPage extends Component {
                                         <span>skiing</span>
                                     </a>
 
-                                    <a href="http://marcel-pirnay.be/" class="btn">
+                                    <a href="https://open.spotify.com/track/1QJb6LWvPXZpTMiqqODqkH?si=CEGERalpSN6BVvPRpyAs5g" class="btn">
                                         <svg width="277" height="62">
                                             <defs>
                                                 <linearGradient id="grad1">
@@ -90,7 +90,7 @@ class RentingPage extends Component {
                             <div class="col">
 
                                 Tell us what you like
-                                <a href="http://marcel-pirnay.be/" class="btn">
+                                <a href="https://open.spotify.com/track/1QJb6LWvPXZpTMiqqODqkH?si=CEGERalpSN6BVvPRpyAs5g" class="btn">
                                     <svg width="277" height="62">
                                         <defs>
                                             <linearGradient id="grad1">
@@ -104,7 +104,7 @@ class RentingPage extends Component {
                                     <span>hiking</span>
                                 </a>
 
-                                <a href="http://marcel-pirnay.be/" class="btn">
+                                <a href="https://open.spotify.com/track/1QJb6LWvPXZpTMiqqODqkH?si=CEGERalpSN6BVvPRpyAs5g" class="btn">
                                     <svg width="277" height="62">
                                         <defs>
                                             <linearGradient id="grad1">
@@ -118,7 +118,7 @@ class RentingPage extends Component {
                                     <span>camping</span>
                                 </a>
 
-                                <a href="http://marcel-pirnay.be/" class="btn">
+                                <a href="https://open.spotify.com/track/1QJb6LWvPXZpTMiqqODqkH?si=CEGERalpSN6BVvPRpyAs5g" class="btn">
                                     <svg width="277" height="62">
                                         <defs>
                                             <linearGradient id="grad1">
