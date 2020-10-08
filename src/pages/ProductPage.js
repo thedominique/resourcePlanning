@@ -35,7 +35,7 @@ class ProductPage extends Component {
                             <h5>price: $50</h5>
                             <br></br>
                             
-                        <a href="http://marcel-pirnay.be/" class="btn"
+                        <a href="https://the-garage.vercel.app/" class="btn"
                             onClick={() => this.props.history.push({
                                 pathname: "/book",
                                 state: { image: "hike3.jpg" }
