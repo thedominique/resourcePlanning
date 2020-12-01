@@ -1,0 +1,37 @@
+.some-page-wrapper {
+    margin-top: 25px;
+    margin-left: 15px;
+    
+    position: center;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+  }
+  
+  .double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 2;
+  }
+  
+  .blue-column {
+   
+    height: 100px;
+  }
+  
+  .green-column {
+      height: 100px;
+    
+  }

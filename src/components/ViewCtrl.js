@@ -6,10 +6,9 @@ import HeaderComponent from '../components/static/HeaderComponent';
 import FooterComponent from '../components/static/FooterComponent';
 
 import StartPage from '../pages/StartPage'
-import ProductPage from '../pages/ProductPage';
-import RentingPage from '../pages/RentingPage';
-import CommunityPage from '../pages/CommunityPage';
-import BookingPage from '../pages/BookingPage';
+import Codebases from '../pages/Codebases';
+import Install from '../pages/Install'
+
 
 
 class ViewCtrl extends Component {
@@ -21,11 +20,10 @@ class ViewCtrl extends Component {
                     <HeaderComponent/>   
                     <Switch>
                         <Route path="/" exact component={StartPage} />
+                        <Route path="/install" exact component={Install} />
                         <Route path="/start" component={StartPage} />
-                        <Route path="/productPage" component={ProductPage} />
-                        <Route path="/rentingPage" component={RentingPage} />
-                        <Route path="/community" component={CommunityPage} />
-                        <Route path="/book" component={BookingPage} />
+                        <Route path="/codebases" component={Codebases} />
+                        
                     </Switch>
                     <FooterComponent/>
                     </>
