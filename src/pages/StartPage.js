@@ -6,8 +6,6 @@ import Button from 'react-bootstrap/Button'
 
 import { WithRouter } from 'react-router-dom'
 
-import fancyBtn from '../components/FancyButton'
-
 class StartPage extends Component {
 
     render() {
