@@ -14,8 +14,8 @@ class StartPage extends Component {
         return (
             <>
                 <br/><br/><br></br>
-                <h1 class="text-light">A simple source control and collaboration platform for teams</h1>
-                <h4 class="text-light"> Fast and frictionless coding</h4>
+                <h1 class="text-light">A. Finman</h1>
+                <h4 class="text-light">Get more out of your numbers</h4>
 
                 <br></br>
 
@@ -31,11 +31,14 @@ class StartPage extends Component {
                 </div> */}
             
                 <Jumbotron style={{width: window.innerWidth*0.75, margin: "0 auto",marginTop: window.innerHeight*0.10, background:"rgba(0,0,0,0.7)"}}>
-                    <h1 style={{color: "white"}}>Sturdy is the new way to build software</h1>
+                    <h1 style={{color: "white"}}>Discover a new way to utilize your financial data</h1>
                     <p style={{color: "white"}}>
-                    All changes are saved to the remote codebase automatically. There is no need to push and pull. Your team can take part of your changes as soon as they are made
+                    We'll give you one platform to optimize, manage, and track key metrics relevant for your business.
                     </p>
-                    <Button class= "primary">Explore Sturdy</Button>
+                    <p style={{color: "white"}}>
+                    Our vision is to redefine the creation and distribution of value which connects the compensation for products and services directly to the real-time consumption and production of value. We welcome you on this journey.
+                    </p>
+                    <Button class= "primary">Explore A. Finman</Button>
                 </Jumbotron>
 
                 
