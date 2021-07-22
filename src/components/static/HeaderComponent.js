@@ -8,7 +8,7 @@ import '../static/header.css'
 
 class HeaderComponent extends Component {
     render() {
-        const isUserLoggedIn = true;
+        
         return (
             <header>
                 <nav className="navbar navbar-expand-md navbar-dark bg-dark">
