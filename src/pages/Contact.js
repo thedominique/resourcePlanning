@@ -18,12 +18,12 @@ class Contact extends Component {
                 <Jumbotron style={{ width: window.innerWidth * 0.99, margin: "0 auto", marginTop: window.innerHeight * 0.02, background: "rgba(0,0,0,0.7)" }}>
                         <div class="container" >
                             <div class="row" >
-                                <h1 style={{ color: "white", marginBottom: "5%" }}>We're here to answer all of your questions, big or small.</h1>
+                                <h1 style={{ color: "white", marginBottom: "5%" }}>Resource request</h1>
                             </div>
 
                             <br></br><br></br>
                             <div class="row" >
-                                <div class="col-md-7">
+                                {/* <div class="col-md-7">
 
 
                                     <p style={{ color: "white" }}>
@@ -44,7 +44,7 @@ class Contact extends Component {
                                         </p>
 
                                     </p>
-                                </div>
+                                </div> */}
                                 <div class="col-md-5">
 
                                     <ContactForm ></ContactForm>

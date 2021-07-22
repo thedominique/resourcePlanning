@@ -12,13 +12,13 @@ class HeaderComponent extends Component {
         return (
             <header>
                 <nav className="navbar navbar-expand-md navbar-dark bg-dark">
-                    <div><a href="http://localhost:3000/" className="navbar-brand">A. Finman</a></div>
+                    <div><a href="http://localhost:3000/" className="navbar-brand">SQ resource planning</a></div>
 
                     <ul className="navbar-nav navbar-center">
                         {/* {isUserLoggedIn && <li><Link className="nav-link" to="/home/dummy">Home</Link></li>} */}
-                        <li><Link className="nav-link" to="/contact">Contact</Link></li>
-                        <li><Link className="nav-link" to="/start">About</Link></li>
-                        <li><Link className="nav-link" to="/start">Community</Link></li>
+                        <li><Link className="nav-link" to="/contact">Request resources</Link></li>
+                        <li><Link className="nav-link" to="/start">My projects</Link></li>
+                        <li><Link className="nav-link" to="/start">Somethingblabla</Link></li>
                        
                     </ul>
 
