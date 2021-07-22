@@ -12,8 +12,8 @@ class StartPage extends Component {
         return (
             <>
                 <br/><br/><br></br>
-                <h1 class="text-light">A. Finman</h1>
-                <h4 class="text-light">Get more out of your numbers</h4>
+                <h1 class="text-light">SQ Resource mngmt</h1>
+                <h4 class="text-light">So cool wow</h4>
 
                 <br></br>
 
@@ -29,14 +29,11 @@ class StartPage extends Component {
                 </div> */}
             
                 <Jumbotron style={{width: window.innerWidth*0.75, margin: "0 auto",marginTop: window.innerHeight*0.10, background:"rgba(0,0,0,0.7)"}}>
-                    <h1 style={{color: "white"}}>Discover a new way to utilize your financial data</h1>
+                    <h1 style={{color: "white"}}>Profile</h1>
                     <p style={{color: "white"}}>
-                    We'll give you one platform to optimize, manage, and track key metrics relevant for your business.
+                    llalalalala
                     </p>
-                    <p style={{color: "white"}}>
-                    Our vision is to redefine the creation and distribution of value which connects the compensation for products and services directly to the real-time consumption and production of value. We welcome you on this journey.
-                    </p>
-                    <Button class= "primary">Explore A. Finman</Button>
+                    <Button class= "primary">See all projects</Button>
                 </Jumbotron>
 
                 
